@@ -11,9 +11,9 @@
  */
 /*
 body{
-  font-family: sans-serif;
-  font-size: 1em;
-  text-align: center;
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
 }
 */
 
@@ -3369,6 +3369,10 @@ body{
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		/* background: url("/tribe_circle_logo.svg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size:contain; */
 	}
 
 		#banner h2 {
@@ -3754,10 +3758,10 @@ body{
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/tribe_circle_logo.svg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/tribe_circle_logo.svg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/tribe_circle_logo.svg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/tribe_circle_logo.svg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3786,4 +3790,20 @@ body{
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	.responsiveCal {
+		position: relative;
+		margin-bottom: 10px;
+		padding-bottom: 56.35%;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.responsiveCal iframe {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
